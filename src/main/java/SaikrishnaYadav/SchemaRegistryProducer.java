@@ -26,7 +26,7 @@ public class SchemaRegistryProducer {
 
         KafkaProducer<String, Employee> producer = new KafkaProducer<String, Employee>(properties);
 
-        String topic = "EmployeeData";
+        String topic = "EmpData";
 
         //Constructing Employee Object with the Generation Avro Model Class
 
